@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/bg2"/>
+        android:src="@drawable/bg"/>
 
     <ImageView
         android:id="@+id/sava"
@@ -32,7 +32,7 @@
         android:layout_margin="10dp"
         android:padding="10dp"
         android:textColor="@android:color/white"
-        android:text="С Днём варенья!" />
+        android:text="@string/hbday" />
 
     <TextView
         android:id="@+id/fromto"
@@ -46,7 +46,8 @@
         android:padding="10dp"
         android:textColor="@android:color/white"
         android:background="@android:color/holo_blue_light"
-        android:text="Медведу от Совы"/>
+        android:autoLink="web"
+        android:text="@string/from_sova"/>
 
     <TextView
         android:id="@+id/date"
@@ -60,6 +61,6 @@
         android:textColor="@android:color/white"
         android:background="@android:color/holo_blue_light"
         android:textStyle="italic|bold"
-        android:text="2017 год" />
+        android:text="@string/year" />
 
 </RelativeLayout>
